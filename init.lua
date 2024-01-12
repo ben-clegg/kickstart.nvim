@@ -190,11 +190,10 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
+    "cpea2506/one_monokai.nvim", -- Monokai theme
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      vim.cmd.colorscheme 'one_monokai'
     end,
   },
 
